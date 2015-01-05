@@ -50,8 +50,14 @@
     <Compile Include="Step3.cs" />
     <Compile Include="Step4.cs" />
     <Compile Include="Step5.cs" />
+    <Compile Include="Step6.cs" />
+    <Compile Include="Step7.cs" />
+    <Compile Include="Step8.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="106.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="17.data">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -65,6 +71,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="3.result">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="38.data">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="65.result">
