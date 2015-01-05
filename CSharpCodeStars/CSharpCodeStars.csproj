@@ -48,6 +48,7 @@
     <Compile Include="Step1.cs" />
     <Compile Include="Step10.cs" />
     <Compile Include="Step11.cs" />
+    <Compile Include="Step12.cs" />
     <Compile Include="Step2.cs" />
     <Compile Include="Step3.cs" />
     <Compile Include="Step4.cs" />
@@ -86,6 +87,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="69.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="73.data">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="App.config" />
