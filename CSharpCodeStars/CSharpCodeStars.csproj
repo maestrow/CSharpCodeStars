@@ -53,6 +53,7 @@
     <Compile Include="Step6.cs" />
     <Compile Include="Step7.cs" />
     <Compile Include="Step8.cs" />
+    <Compile Include="Step9.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="106.data">
@@ -80,6 +81,11 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="46.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
