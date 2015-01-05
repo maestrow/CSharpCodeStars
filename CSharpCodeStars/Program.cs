@@ -10,7 +10,7 @@ namespace CSharpCodeStars
     {
         static void Main(string[] args)
         {
-            IStep step = new Step9();
+            IStep step = new Step10();
             step.Do(Console.Out);
             Console.WriteLine("ok.");
             Console.ReadKey();
